@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timber Valley</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="text/javascript" src="./index.js"></script>
+</head>
+<body>
+    <div class="top">
+        <h1 class="top-text">TIMBER VALLEY CAMPSITE</h1><br>
+        <h2 class="top-para">CAMPING--FISHING--PICNICSPOT--BONFIRE</h2>
+        <nav class="stroke">
+            <div class="menu-icon">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div> 
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#booking">Booking</a></li>
+                <li><a href="#maps">Google Maps</a></li>
+                <li><a href="#package">Package</a></li>
+            </ul>  
+        </nav> 
+    </div>
+    <div class="grid-container">
+         <div class="grid-item">
+            <h1>Vision</h1><br>
+             <p>We aim to be the premier camping option for all travellers visiting Sikkim by using
+                TIMBER VALLEY CAMPSITE to offer a unique opportunity to explore the State’s
+                natural beauty experiencing alternative living in its simplest form.</p>
+         </div>
+         <div class="grid-item">
+            <h1>Mission</h1><br>
+            <p>The TIMBER VALLEY CAMPSITE provides travellers with an immersive and
+                customizable experience that is close to Gangtok City and provides visitors with the
+                opportunity to interact with full-time residents of the Sikkim.</p>
+         </div>
+         <div class="grid-item">
+            <h1>Service</h1><br>
+            <p> We at TIMBER VALLEY CAMPSITE will provide travellers with an
+                enjoyable camping experience that is customizable from how guests choose to
+                reach us, the activities they decide to partake in, and to how you decide to share you
+                campsite compass with others during the rest of their travels.  </p>
+         </div>
+    </div>
+    <div class="intro">
+        <div class="intro-grid">
+            <img src="./images/intro.jpg" alt="myImage">
+        </div>
+        <div class="intro-grid">
+            <h1 id="about">ABOUT US</h1>
+            <p>The TIMBER VALLEY CAMPSITE at , Assam Lingzey, East Sikkim aims to be
+                the premier camping option for all travellers visiting areas around East Sikkim by
+                using the camp to offer a unique opportunity to explore the State`s natural beauty
+                while experiencing alternative living in its simplest form. Our campsite is located
+                in the bank of Takchangchu river of Assam Lingzey GPU East Sikkim. The Camp
+                will provide a one-of-a-kind camping experience that offers travellers the
+                opportunity to experience the Sikkim`s rain forests in a camp setting with a hostel
+                like atmosphere. Presently, our camp site is in the introductory stage. Future plans
+                include creating working relationships with other companies and furthering our
+                knowledge of the surrounding hiking corridors that can facilitate the continued travel
+                of our guests, such as Fishing, trekking to Khedi Lake etc.
+                The greatest risks associated with our business today is transportation to and from
+                the campsite valley, rainy weather conditions during a large portion of the year, and
+                being off a main travel corridor . Our campsite area is at a distance of around 500
+                meters from roadside but our guests will experience a short trek and inbetween a
+                Natural waterfall called maruni waterfall We feel we can overcome these risks
+                because of traveller`s desire to learn more about the Natural Beauty of Our Sikkim.</p>
+        </div>
+    </div>
+    <div class="google-maps" id="maps">
+         <img  src="./images/googlemaps.png">
+         <button class="google-maps-button">Google Maps</button>
+    </div>
+    <div class="gallery" id ="gallery">
+         <h1 style="margin-bottom: 30px; margin-left: 14px;">GALLERY</h1>
+         <div class="gallery-grid-container">
+              <div class="gallery-grid-item"><img src="./images/intro1.jpg"></div>
+              <div class="gallery-grid-item"><img src="./images/intro.jpg"></div>
+              <div class="gallery-grid-item"><img src="./images/intro3.jpg"></div>
+              <div class="gallery-grid-item"><img src="./images/intro2.jpg"></div>
+         </div>
+    </div>
+    <div class="booking" id="booking">
+        <div class="container">
+          <form id="form-info">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+      
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+
+            <label for="contact">Contact No : </label>
+            <input type="digit" id="contact" name="contact" placeholder="Enter your contact number">
+
+            <label for="people">Number of people:</label>
+            <input type="number" id="people" name="people" placeholder="Enter number of people">
+      
+            <label for="checkin">Checkin:</label>
+            <input type="datetime-local" id="checkin" name="checkin">
+
+            <label for="checkout">Checkout:</label>
+            <input type="datetime-local" id="checkout" name="checkout"><br>
+      
+            <input type="submit" value="Book Now" onclick="validateForm()">
+          </form>
+        </div>
+      </div>
+
+      <div class="package" id="package">
+            <div class="package-item"><img src="./images/Price.png"></div>
+            <div class="package-item"><img src="./images/Price1.png"></div>
+      </div>
+
+      <div class="footer">
+         <div class="footer-items1">This is footer</div>
+         <div class="footer-items2">
+            <p>The growth and expansion of the service industry in Sikkim has a direct influence
+                on the social and cultural environment of Sikkim. This in turn has an effect on what
+                Sikkim can offer its residents and visitors.</p>
+         </div>
+         <div class="footer-items3">
+            <h3>Contact Details</h3>
+            <p>asdhakjshdk@gmail.com</p>
+            <p>2323423423423</p>
+         </div>
+         <div class="footer-items4">
+            <h3>Socials</h3>
+            <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-google" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+         </div>
+      </div>
+</body>
+</html>
