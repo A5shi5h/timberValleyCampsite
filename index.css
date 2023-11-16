@@ -255,6 +255,7 @@ nav.fill ul li a:hover:after {
     font-family: 'Times New Roman', Times, serif;
     border-radius: 15px;
     cursor: pointer;
+    background: transparent;
 }
 
 .google-maps-button:hover{
@@ -264,6 +265,15 @@ nav.fill ul li a:hover:after {
     box-shadow:  1px 1px 10px 10px rgb(87, 86, 86);
     background-color: #020b10;
     color: aliceblue;
+}
+
+.google-maps-button a{
+    text-decoration: none;
+    color: black;
+}
+
+.google-maps-button a:hover{
+    color: white;
 }
 
 .gallery{
@@ -414,6 +424,7 @@ input[type="submit"]:hover {
     }
 
     .top button{
+        box-shadow: none;
         padding: 5px 10px;
         margin-top: 110px;
         font-size: small;
