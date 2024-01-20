@@ -125,8 +125,6 @@ nav.fill ul li a:hover {
 nav.fill ul li a:hover:after {
     z-index: -10;
     animation: fill 1s forwards;
-    -webkit-animation: fill 1s forwards;
-    -moz-animation: fill 1s forwards;
     opacity: 1;
 }
 
@@ -200,6 +198,7 @@ nav.fill ul li a:hover:after {
 
 .grid-item:hover{
     border-radius: 10px;
+    border: 2px solid white;
     transform: rotateX(0deg);
     transition: 1s;
     cursor: pointer;
@@ -218,20 +217,21 @@ nav.fill ul li a:hover:after {
 }
 
 .intro-grid{
-    padding: 20px;
+    padding: 25px;
     text-align: justify;
 }
 
-.intro-grid img{
+.intro img{
     width:100%;
     margin-top: 30px;
+    padding-left: 30px;
 }
 
-.intro-grid img:hover{
+/* .intro-grid img:hover{
     transform: scale(1.1);
     transition: 1s;
     cursor: pointer;
-}
+} */
 
 .google-maps{
     height: 400px;
@@ -277,18 +277,18 @@ nav.fill ul li a:hover:after {
 }
 
 .gallery{
-    height: 470px;
+    height: auto;
     max-width: 100%;
     margin-top: 55px;
 }
 
 .gallery-grid-container{
     display: grid;
-    grid-template-columns: repeat(4 , 1fr);
+    grid-template-columns: repeat(3 , 1fr);
     gap:20px;
     text-align: center;
     padding: 15px;
-    height: auto;
+    height: 100%;
 }
 
 .gallery-grid-container img{
@@ -311,7 +311,7 @@ nav.fill ul li a:hover:after {
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
-    height: 100%;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;

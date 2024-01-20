@@ -1,4 +1,4 @@
-
+import 'https://flackr.github.io/scroll-timeline/dist/scroll-timeline.js';
 //Event for the navigation bar
 document.addEventListener("DOMContentLoaded", function () {
     const menuIcon = document.querySelector('.menu-icon');

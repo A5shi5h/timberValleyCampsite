@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <script type="text/javascript" src="./index.js"></script>
+    <script type="text/javascript" type="module" src="./index.js"></script>
 </head>
 <body>
     <div class="top">
@@ -53,7 +53,7 @@
          </div>
     </div>
     <div class="intro">
-        <div class="intro-grid">
+        <div class="intro-grid-img">
             <img src="./images/intro.jpg" alt="myImage">
         </div>
         <div class="intro-grid">
@@ -91,6 +91,8 @@
               <div class="gallery-grid-item"><img src="./images/intro.jpg"></div>
               <div class="gallery-grid-item"><img src="./images/intro3.jpg"></div>
               <div class="gallery-grid-item"><img src="./images/intro2.jpg"></div>
+              <div class="gallery-grid-item"><img src="./images/intro2.jpg"></div>
+              <div class="gallery-grid-item"><img src="./images/intro2.jpg"></div>
          </div>
     </div>
     <div class="booking" id="booking">
@@ -103,7 +105,7 @@
             <input type="email" id="email" name="email" placeholder="Enter your email">
 
             <label for="contact">Contact No : </label>
-            <input type="digit" id="contact" name="contact" placeholder="Enter your contact number">
+            <input type="digit" id="contact" name="contact" placeholder="Enter your contact number" required>
 
             <label for="people">Number of people:</label>
             <input type="number" id="people" name="people" placeholder="Enter number of people">
