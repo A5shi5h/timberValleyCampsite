@@ -1,4 +1,4 @@
-import 'https://flackr.github.io/scroll-timeline/dist/scroll-timeline.js';
+
 //Event for the navigation bar
 document.addEventListener("DOMContentLoaded", function () {
     const menuIcon = document.querySelector('.menu-icon');
@@ -8,8 +8,6 @@ document.addEventListener("DOMContentLoaded", function () {
         navLinks.classList.toggle('active');
     });
 });
-
-//For logging in the data from the form on the console
 
 document.addEventListener("DOMContentLoaded", function() {
 
@@ -92,3 +90,4 @@ function validateForm()
         sendEmail();
     }
 }
+
